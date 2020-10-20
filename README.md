@@ -2,8 +2,8 @@
 
 - Versão do Node e NPM (Node package manager)
 
-        - Terminal->> node -v //Versão do NodeJS 
-        - Terminal->> npm -v //Versão do NPM 
+     - Terminal->> node -v //Versão do NodeJS 
+     - Terminal->> npm -v //Versão do NPM 
 
 
 - Instalando chocolatey/NodeJS (https://chocolatey.org/)
