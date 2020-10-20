@@ -29,8 +29,8 @@
     NoSQL: MongoDB, CouchDB, ...
    
     Vamos utilizar SQLite mas usando Query Builder, assim pode usar em qq bd SQL acima:
-    instalando o KNEX.JS - ver site
     
+    instalando o KNEX.JS:
     - Terminal->> npx knex init //cria arquivo de conexão
     - Terminal->> npx knex migrate:make create_ongs // criando migrations
     - Terminal->> npx knex migrate:latest //executando a migration
@@ -59,19 +59,15 @@
      - Terminal->> npm install cross-env
      - Terminal->> npm install supertest
 
-- Dicas:
-
-    - Se digitar PS C:\RodrigoCC\Estudo\React_RocketSeat\backend> code .  no PowerShell abre o VScode ja com o projeto conforme pasta que esta acessando
-
-    - Para não ter que ficar reiniciando o RUN a cada alteração, instalar:
-       - npm install nodemon -D
-
-        - na tag Scripts do package.json:
+- Dica: Para não ter que ficar reiniciando o RUN a cada alteração, instalar:
+      
+     - npm install nodemon -D
+     - na tag Scripts do package.json:
               "scripts": {
                 "start": "nodemon index.js"
+      - Rodar aplicação agora com: npm start
 
-        - Rodar aplicação agora com: npm start
-
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *  Métodos HTTP:
  
  * GET: Buscar uma informação do back-end
@@ -84,3 +80,4 @@
  * Query Params: Parâmetros nomeados enviados no rota após "?" (filtro, paginação, ...)
  * Route Params: Parâmetros utilizados para identificar recursos (EX: /users) 
  * Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
