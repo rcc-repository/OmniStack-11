@@ -1,22 +1,21 @@
 # React_JS_Basic
 
+- Versão do Node e NPM (Node package manager)
+
+        - Terminal->> node -v //Versão do NodeJS 
+        - Terminal->> npm -v //Versão do NPM 
 
 
-1 - Abra o PowerShell em modo adm e digite:
+- Instalando chocolatey/NodeJS (https://chocolatey.org/)
 
-	//Instalando chocolatey / NodeJS (https://chocolatey.org/)
+    	- Terminal->> Get-ExecutionPolicy
+        - Terminal->> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+        - Terminal->> cinst nodejs-lts //abaixa a versão atual LTS do NodeJS e instala
 
-    - Get-ExecutionPolicy
-    - Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-    - cinst nodejs-lts //abaixa a versão atual LTS do NodeJS e instala
+- Criando o backend (C:\RodrigoCC\Estudo\React_RocketSeat\backend>):
 
-    - node -v //Versão do NodeJS 
-    - npm -v //Versão do NPM 
-
-2 - Criando o backend (C:\RodrigoCC\Estudo\React_RocketSeat\backend>):
-
-    - npm init -y //Cria o package.json
-    - npm install express
+        - Terminal->> npm init -y //Cria o package.json
+        - Terminal->> npm install express
     
     - node index.js //Execxuta o Serviço
 
