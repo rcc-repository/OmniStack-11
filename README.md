@@ -1,4 +1,4 @@
-# React_JS_Basic
+# React JS, React Native. Node.js
 
 - Versão do Node e NPM (Node package manager)
 
