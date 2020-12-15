@@ -1,4 +1,4 @@
-# React JS, React Native. Node.js
+# React JS, React Native e Node.js
 
 - Versão do Node e NPM (Node package manager)
 
