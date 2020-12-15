@@ -1,31 +1,27 @@
-
-const crypto = require('crypto');
-const connection = require('../database/connection');
-const generateUniqueId = require('../utils/generateUniqueId');
+const generateId = require('../utils/generateId')
+const connection = require('../database/connection')
 
 module.exports = {
-    async index(request, response) {
-        const ongs = await connection('ongs').select('*');
-    
-        return response.json(ongs);
-    },
-    
-    async create(request, response) {
-        const {name, email, whatsapp, city, uf} = request.body;
+  async index(require, response){
+    const ongs = await connection('ongs').select('*')
+    return response.json(ongs)
+  },
 
-        const id = generateUniqueId();
-    
-        await connection('ongs').insert({
-            id,
-            name,
-            email,
-            whatsapp,
-            city,
-            uf
-        })
-        
-        return response.json( {
-            id
-        });        
-    }
+  async create(require, response){
+    //async pq pode demorar p registrar no banco
+  const {name, email, whatsapp, city, uf} = require.body
+
+  const id = generateId()
+
+  await connection('ongs').insert({
+    id,
+    name,
+    email,
+    whatsapp,
+    city,
+    uf
+  })
+
+  return response.json({id})
+  }
 }
