@@ -1,5 +1,7 @@
 # React JS, React Native e Node.js
 
+https://github.com/rocketseat-education/semana-omnistack-11
+
 - Versão do Node e NPM (Node package manager)
 
      - Terminal->> node -v
