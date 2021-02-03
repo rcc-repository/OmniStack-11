@@ -1,4 +1,12 @@
-# React JS, React Native e Node.js
+# ReactJS, React Native e Node.js
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
+
 
 https://github.com/rocketseat-education/semana-omnistack-11
 
