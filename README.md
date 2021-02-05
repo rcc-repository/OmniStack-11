@@ -1,4 +1,8 @@
-<h4 align="left">
+<h1 align="center">
+    <img alt="BeTheHero" title="#delicinha" src=".github/bethehero.svg" width="200px" />
+</h1>
+
+<h4 align="center">
   🚀 Semana OmniStack 11.0
 </h4>
 
