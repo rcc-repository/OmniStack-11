@@ -30,8 +30,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O BeTheHero é um projeto que visa conectar pessoas que desejam fazer contribuições monetárias a ONG's (Organizações não governamentais) que precisam de ajuda.
 
-https://github.com/rocketseat-education/semana-omnistack-11
-
+- [rocketseat-education](https://github.com/rocketseat-education)
+- [rocketseat-semana-omnistack-11](https://github.com/rocketseat-education/semana-omnistack-11)
 
 - Versão do Node e NPM (Node package manager)
 
